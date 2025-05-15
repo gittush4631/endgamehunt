@@ -1,0 +1,3 @@
+Translate to Stix from Endgame
+python main.py translate endgame results '{"type": "identity", "id": "identity-random-string", "name": "Endgame", "identity_class": "events"}' '[{"domain": "google.com", "updated_at": "2024-05-07T08:26.943234+00:00", "hostname": "example_hostname", "mac_address": "12:12:DD:3D","ip_address": "10.10.1.57"},{"domain": "google.com", "updated_at": "2024-05-07T08:26.943234+00:00", "hostname": "example_hostname", "mac_address": "12:12:DD:3D","ip_address": "10.10.1.57"}]'
+

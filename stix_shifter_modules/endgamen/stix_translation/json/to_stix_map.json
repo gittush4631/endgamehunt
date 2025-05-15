@@ -1,0 +1,287 @@
+{
+  "ad_hostname": {
+    "key": "domain-name.value",
+    "object": "domain"
+  },
+  "hostname": {
+    "key": "hostname.value",
+    "object": "hostname"
+  },
+  "mac_address": {
+    "key": "mac-addr.value",
+    "object": "mac-addr"
+  },
+  "ip_address": {
+    "key": "ipv4-addr.value",
+    "object": "ipv4-addr"
+  },
+  "sensor_sensor_version": {
+    "key": "x-endgame-sensor.sensor_version",
+    "object": "x-endgame-sensor"
+  },
+  "sensor_policy_status": {
+    "key": "x-endgame-sensor.policy_status",
+    "object": "x-endgame-sensor"
+  },
+  "sensor_status": {
+    "key": "x-endgame-sensor.sensor_status",
+    "object": "x-endgame-sensor"
+  },
+  "sensor_policy_name": {
+    "key": "x-endgame-sensor.policy_name",
+    "object": "x-endgame-sensor"
+  },
+  "sensor_sensor_type": {
+    "key": "x-endgame-sensor.sensor_type",
+    "object": "x-endgame-sensor"
+  },
+  "sensor_id": {
+    "key": "x-endgame-sensor.id",
+    "object": "x-endgame-sensor"
+  },
+  "sensor_policy_id": {
+    "key": "x-endgame-sensor.policy_id",
+    "object": "x-endgame-sensor"
+  },
+  "user_display_name": {
+    "key": "user-account.display_name",
+    "object": "user-account"
+  },
+  "user-id": {
+    "key": "user-account.user_id",
+    "object": "user-account"
+  },
+  "alert_id": {
+    "key": "x-endgame-alert.alert_id",
+    "object": "x-endgame-alert"
+  },
+  "family": {
+    "key": "x-endgame-alert.family",
+    "object": "x-endgame-alert"
+  },
+  "viewed": {
+    "key": "x-endgame-alert.viewed",
+    "object": "x-endgame-alert"
+  },
+  "viewed_by": {
+    "key": "x-endgame-alert.viewed_by",
+    "object": "x-endgame-alert"
+  },
+  "archived": {
+    "key": "x-endgame-alert.archived",
+    "object": "x-endgame-alert"
+  },
+  "doc_type": {
+    "key": "x-endgame-alert.doc_type",
+    "object": "x-endgame-alert"
+  },
+  "task_id": {
+    "key": "x-endgame-alert.task_id",
+    "object": "x-endgame-alert"
+  },
+  "created_at": {
+    "key": "x-endgame-alert.created_at",
+    "object": "x-endgame-alert"
+  },
+  "assigned_to": {
+    "key": "x-endgame-alert.assigned_to",
+    "object": "x-endgame-alert"
+  },
+  "machine_id": {
+    "key": "x-endgame-alert.machine_id",
+    "object": "x-endgame-alert"
+  },
+  "severity": {
+    "key": "x-endgame-alert.severity",
+    "object": "x-endgame-alert"
+  },
+  "indexed_at": {
+    "key": "x-endgame-alert.indexed_at",
+    "object": "x-endgame-alert"
+  },
+  "system_msg": {
+    "key": "x-endgame-alert.system_msg",
+    "object": "x-endgame-alert"
+  },
+  "sematic_version": {
+    "key": "x-endgame-alert.semantic_version",
+    "object": "x-endgame-alert"
+  },
+  "alert_type": {
+    "key": "x-endgame-alert.type",
+    "object": "x-endgame-alert"
+  },
+  "related_collections": {
+    "key": "x-endgame-alert.related_collections",
+    "object": "x-endgame-alert"
+  },
+  "local_msg": {
+    "key": "x-endgame-alert.local_msg",
+    "object": "x-endgame-alert"
+  },
+  "system_code": {
+    "key": "x-endgame-alert.system_code",
+    "object": "x-endgame-alert"
+  },
+  "local_code": {
+    "key": "x-endgame-alert.local_code",
+    "object": "x-endgame-alert"
+  },
+  "rule_id": {
+    "key": "x-endgame-alert.rule_id",
+    "object": "x-endgame-alert"
+  },
+  "rule_name": {
+    "key": "x-endgame-alert.rule_name",
+    "object": "x-endgame-alert"
+  },
+  "correlation_id": {
+    "key": "x-endgame-alert.correlation_id",
+    "object": "x-endgame-alert"
+  },
+  "rule_version": {
+    "key": "x-endgame-alert.rule_version",
+    "object": "x-endgame-alert"
+  },
+  "md5": {
+    "key": "file.hashes",
+    "object": "file"
+  },
+  "data": {
+    "rule_type": {
+      "key": "x-endgame-alert.rule_type",
+    "object": "x-endgame-alert"
+    },
+    "rule_id": {
+      "key": "x-endgame-alert.rule_id",
+    "object": "x-endgame-alert"
+    },
+    "rule_name": {
+      "key": "x-endgame-alert.rule_name",
+    "object": "x-endgame-alert"
+    },
+    "event_type": {
+      "key": "x-endgame-alert.event_type",
+    "object": "x-endgame-alert"
+    },
+    "target_process_dirname": {
+      "key": "x-endgame-alert.target_process_dirname",
+    "object": "x-endgame-alert"
+    },
+    "severity_value": {
+      "key": "x-endgame-alert.severity_value",
+    "object": "x-endgame-alert"
+    },
+    "injection_type": {
+      "key": "x-endgame-alert.injection_type",
+    "object": "x-endgame-alert"
+    },
+    "target_process": {
+      "key": "x-endgame-alert.target_process",
+    "object": "x-endgame-alert"
+    },
+    "originating_task_id": {
+      "key": "x-endgame-alert.originating_task_id",
+    "object": "x-endgame-alert"
+    },
+    "id":{
+      "key": "x-endgame-alert.alert_id",
+    "object": "x-endgame-alert"
+    },
+    "triggering_fact_array": {
+        "data_buffer":{
+           "md5":{
+            "key": "x-endgame-alert.md5",
+            "object": "x-endgame-alert"
+          },
+          "user_name":{
+            "key": "x-endgame-alert.alert_username",
+            "object": "x-endgame-alert"
+          },
+          "signature_status":{
+            "key": "x-endgame-alert.signature_status",
+            "object": "x-endgame-alert"
+          },
+          "working_directory":{
+            "key": "x-endgame-alert.working_directory",
+            "object": "x-endgame-alert"
+          },
+          "event_subtype_full":{
+            "key": "x-endgame-alert.event_subtype_full",
+            "object": "x-endgame-alert"
+          },
+          "command_line":{
+            "key": "x-endgame-alert.command_line",
+            "object": "x-endgame-alert"
+          },
+          "elevated":{
+            "key": "x-endgame-alert.elevated",
+            "object": "x-endgame-alert"
+          },
+          "event_type_human":{
+            "key": "x-endgame-alert.event_type_human",
+            "object": "x-endgame-alert"
+          },
+          "parent_process_name":{
+            "key": "x-endgame-alert.parent_process_name",
+            "object": "x-endgame-alert"
+          },
+          "user_domain":{
+            "key": "x-endgame-alert.user_domain",
+            "object": "x-endgame-alert"
+          }
+        }
+      }
+      
+    },
+  
+  "id": {
+    "key": "x-endgame-endpoint.id",
+    "object": "x-endgame-endpoint"
+  },
+  "display_operating_system": {
+    "key": "x-endgame-endpoint.display_operating_system",
+    "object": "x-endgame-endpoint"
+  },
+  "base_image": {
+    "key": "x-endgame-endpoint.base_image",
+    "object": "x-endgame-endpoint"
+  },
+  "status": {
+    "key": "x-endgame-endpoint.status",
+    "object": "x-endgame-endpoint"
+  },
+  "ad_distinguished_name": {
+    "key": "x-endgame-endpoint.ad_distinguished_name",
+    "object": "x-endgame-endpoint"
+  },
+  "ad_hostname": {
+    "key": "x-endgame-endpoint.ad_hostname",
+    "object": "x-endgame-endpoint"
+  },
+  "alert_count": {
+    "key": "x-endgame-endpoint.alert_count",
+    "object": "x-endgame-endpoint"
+  },
+  "investigation_count": {
+    "key": "x-endgame-endpoint.investigation_count",
+    "object": "x-endgame-endpoint"
+  },
+  "is_isolated": {
+    "key": "x-endgame-endpoint.is_isolated",
+    "object": "x-endgame-endpoint"
+  },
+  "operating_system": {
+    "key": "x-endgame-endpoint.operating_system",
+    "object": "x-endgame-endpoint"
+  },
+  "created_at": {
+    "key": "x-endgame-endpoint.created_at",
+    "object": "x-endgame-endpoint"
+  },
+  "machine_id": {
+    "key": "x-endgame-endpoint.machine_id",
+    "object": "x-endgame-endpoint"
+  }
+
+}

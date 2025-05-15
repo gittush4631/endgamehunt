@@ -1,0 +1,24 @@
+{
+    "connection": {
+        "host": {
+            "label": "Management IP address or hostname",
+            "description": "Specify the IP address or hostname of the data source"
+        },
+        "help": {
+            "label": "Need additional help?",
+            "description": "More details on the data source setting can be found in the specified link"
+        }
+    },
+    "configuration": {
+        "auth": {
+            "client_email": {
+                "label": "Client email address",
+                "description": "Client email address required for data source authentication"
+            },
+            "private_key": {
+                "label": "Private Key",
+                "description": "Private Key is a mandatory authentication parameter to communicate with the data source."
+            }
+        }
+    }
+}

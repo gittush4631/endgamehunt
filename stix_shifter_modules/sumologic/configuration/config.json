@@ -1,0 +1,26 @@
+{
+    "connection": {
+        "type": {
+            "displayName": "SumoLogic",
+            "group": "sumologic"
+        },
+        "region": {
+            "type": "text"
+        },
+        "help": {
+            "type": "link",
+            "default": "data-sources.html"
+        }
+    },
+    "configuration": {
+        "auth": {
+            "type" : "fields",
+            "access_id": {
+                "type": "password"
+            },
+            "access_key": {
+                "type": "password"
+            }
+        }
+    }
+}

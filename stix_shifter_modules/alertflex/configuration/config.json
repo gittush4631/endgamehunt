@@ -1,0 +1,37 @@
+{
+    "connection": {
+        "type": {
+            "displayName": "Alertflex",
+            "group": "alertflex"
+        },
+        "host": {
+            "type": "text",
+            "regex": "^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9_:/\\-]*[a-zA-Z0-9])\\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9_:/\\-]*[A-Za-z0-9])$"
+        },
+        "port": {
+            "default": 8181,
+            "type": "number",
+            "min": 1,
+            "max": 65535
+        },
+        "help": {
+            "default": "https://alertflex.github.io/doc/pages/integration.html",
+            "type": "link"
+        },
+        "selfSignedCert": {
+            "type": "password",
+            "optional": true
+        }
+    },
+    "configuration": {
+        "auth": {
+            "type" : "fields",
+            "username": {
+                "type": "password"
+            },
+            "password": {
+                "type": "password"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "connection": {
+        "help": {
+            "label": "Need additional help?",
+            "description": "More details on the data source setting can be found in the specified link"
+        },
+        "options": {
+            "proxy_host": {
+                "label": "Management IP address or hostname",
+                "description": "Specify the IP address or hostname of the proxy"
+            },
+            "proxy_port": {
+                "label": "Host port",
+                "description": "Set the port number that is associated with the proxy hostname or IP address"
+            },
+            "destination": {
+                "label": "Destinations",
+                "description": "JSON string with connection and configuration objects",
+                "placeholder": "{\"connection\": {\"host\": ...}, \"configuration\":{\"auth\":{\"login\"...}}}"              
+            }
+        }
+    },
+    "configuration": {
+        "type": {
+            "label": "Authentication",
+            "description": "Authentication details for proxy connection (not used)"
+        }
+    }
+}

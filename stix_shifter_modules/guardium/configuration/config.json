@@ -1,0 +1,45 @@
+{
+    "connection": {
+        "type": {
+            "displayName": "IBM® Guardium",
+            "group": "guardium"
+        },
+        "host": {
+            "type": "text",
+            "regex": "^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9_:/\\-]*[a-zA-Z0-9])\\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9_:/\\-]*[A-Za-z0-9])$"
+        },
+        "port": {
+            "default": 8443,
+            "type": "number",
+            "min": 1,
+            "max": 65535
+        },
+        "help": {
+            "default": "data-sources-guardium.html",
+            "type": "link"
+        },
+        "selfSignedCert": {
+            "type": "password",
+            "optional": true
+        },
+        "client_id": {
+            "type": "text",
+            "previous": "connection.options.client_id"
+        },
+        "client_secret": {
+            "type": "password",
+            "previous": "connection.options.client_secret"
+        }
+    },
+    "configuration": {
+        "auth": {
+          "type" : "fields",
+          "username": {
+              "type": "password"
+          },
+          "password": {
+              "type": "password"
+          }
+        }
+    }
+}

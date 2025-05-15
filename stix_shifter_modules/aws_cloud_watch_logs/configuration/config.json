@@ -1,0 +1,38 @@
+{
+    "connection": {
+        "type": {
+            "displayName": "Amazon CloudWatch Logs",
+            "group": "aws"
+        },
+        "help": {
+            "type": "link",
+            "default": "data-sources-aws.html"
+        },
+        "region": {
+            "type": "text",
+            "previous": "connection.options.region"
+        },
+        "log_group_names": {
+            "type": "text",
+            "optional": true,
+            "previous": "connection.options.log_group_names"
+        }
+    },
+    "configuration": {
+        "auth": {
+            "type" : "fields",
+            "aws_access_key_id": {
+                "type": "password",
+                "optional": true
+            },
+            "aws_iam_role": {
+                "type": "password",
+                "optional": true
+            },
+            "aws_secret_access_key": {
+                "type": "password",
+                "optional": true
+            }
+        }
+    }
+}

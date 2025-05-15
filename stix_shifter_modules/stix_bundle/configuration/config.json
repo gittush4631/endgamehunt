@@ -1,0 +1,34 @@
+{
+    "connection": {
+        "type": {
+            "displayName": "STIX Bundle",
+            "group": "stixbundle"
+        },
+        "url": {
+            "type": "text",
+            "previous": "connection.host"
+        },
+        "help": {
+            "type": "link",
+            "default": "data-sources-stix.html"
+        },
+        "options": {
+            "result_limit": {
+                "hidden": true
+            }
+        }
+    },
+    "configuration": {
+        "auth": {
+            "type" : "fields",
+            "username": {
+                "type": "password",
+                "optional": true
+            },
+            "password": {
+                "type": "password",
+                "optional": true
+            }
+        }
+    }
+}

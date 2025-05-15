@@ -1,0 +1,31 @@
+{
+    "connection": {
+        "host": {
+            "label": "Management IP address or hostname",
+            "description": "Specify the IP address or hostname of the data source"
+        },
+        "port": {
+            "label": "Host port",
+            "description": "Set the port number that is associated with the hostname or IP address"
+        },
+        "help": {
+            "label": "Need additional help?"
+        },
+        "selfSignedCert": {
+            "label": "PEM Formatted SSL certificate(s)",
+            "description": "Provide a self-signed or CA-signed certificate to securely communicate with the data source."
+        }
+    },
+    "configuration": {
+        "auth": {
+            "clientId": {
+                "label": "Client ID",
+                "description": "Client ID of IBM Seurity Verify"
+            },
+            "clientSecret": {
+                "label": "Client secret",
+                "description": "Client secret of Client ID of IBM Seurity Verify"
+            }
+        }
+    }
+}
